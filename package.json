@@ -1,6 +1,6 @@
 {
-  "name": "gulp-slack",
-  "version": "0.1.2",
+  "name": "gulp-slack-bitegg",
+  "version": "0.1.0",
   "description": "Post messages to Slack",
   "main": "index.js",
   "scripts": {
@@ -12,23 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Auoja/gulp-slack.git"
+    "url": "https://github.com/bunnasorn/gulp-slack-bitegg"
   },
   "keywords": [
     "gulp",
     "gulpplugin",
     "slack"
   ],
-  "author": "Anton Auoja <antonauoja@gmail.com>",
+  "author": "Bunnasorn Boonyuang <bboonyuang@gmail.com>",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/Auoja/gulp-slack/raw/master/LICENSE"
+      "url": "https://github.com/bunnasorn/gulp-slack-bitegg/blob/master/LICENSE"
     }
   ],
   "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/Auoja/gulp-slack/issues"
-  },
-  "homepage": "https://github.com/Auoja/gulp-slack"
+  "homepage": "https://github.com/bunnasorn/gulp-slack-bitegg"
 }

@@ -1,11 +1,10 @@
 var through = require('through2');
 var slack = require('node-slack');
 
-module.exports = function(param) {
+module.exports = function() {
 
-    slack.setup(param);
-
-    var post = function(input) {
+    var post = function(param, input) {
+        slack.setup(param);
         slack.postToSlack(input);
         return through.obj();
     };
